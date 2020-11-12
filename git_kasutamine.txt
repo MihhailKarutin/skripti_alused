@@ -24,3 +24,14 @@ c. Muudatuste ajalugu jälgimine
 
 git log
 git show commit_hash
+
+4. remote github.com
+
+a. loo github.com repositoorium 
+b. tekita ühendus github repositooriumiga
+
+git remote add origin https://github.com/MihhailKarutin/skripti_alused.git
+
+c. [iga muudatuse] korral lükka lokaalne ajalugu githubi
+
+git push -u origin master
