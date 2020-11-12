@@ -8,3 +8,19 @@ git config --global user.name "Ees Perenimi"
 git config --global user.email kasutaja@domeen
 git config --global core.editor nano
 
+3. Kasutamine
+
+a. Alguses AINULT 1 kord kataloogis, kus planeerime skrptid hoida ja muuta
+
+git init
+
+b. Iga failiga - eeldusega, et fail on juba olemas [ja lisatud ja salvestatud mingi sisu]
+
+git status
+git add failinimi
+git commit -m "muudatuse kirjeldus"
+
+c. Muudatuste ajalugu jälgimine
+
+git log
+git show commit_hash
